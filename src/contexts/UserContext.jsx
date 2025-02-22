@@ -88,7 +88,7 @@ function UserContext({ children }) {
        },2000)
     } 
     else if (command.includes("open") && command.includes("telegram")) {
-      window.open("https://web.whatsapp.com", "_blank");
+      window.open("https://web.telegram.org", "_blank");
       speak("opening telegram");
       setres("opening telegram...");
       setpro(true);
